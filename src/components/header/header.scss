@@ -1,0 +1,48 @@
+.header {
+  height: 80px;
+  background-color: #0E0430;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+
+  &__btn {
+    padding: 10px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Inter";
+    font-weight: 500;
+    background-color: #FFD400;
+    border-radius: 4px;
+  }
+
+  &__inpt{
+    width: 980px;
+    height: 44px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Inter";
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: #261F48;
+    box-sizing: border-box;
+    margin-right: 14px;
+
+    &:focus {
+      border: 2px solid #447EE4;
+    }
+
+    &::placeholder {
+      font-size: 16px;
+      font-family: "Inter";
+      font-weight: 500;
+      color: #67627F;
+      border-radius: 4px;
+    }
+  }
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}

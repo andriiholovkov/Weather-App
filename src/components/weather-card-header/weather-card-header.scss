@@ -1,0 +1,58 @@
+.weatherCard {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  &__title-wrap {
+    display: flex;
+    flex-direction: column;
+    span {
+      color: white;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: 'Inter';
+      font-weight: 400;
+    }
+
+    div {
+      color: white;
+      font-size: 40px;
+      line-height: 60px;
+      font-family: 'Inter';
+      font-weight: 700;
+    }
+  }
+
+  &__btn-wrap {
+    & :first-child {
+      margin-right: 8px;
+    }
+
+    .primary {
+      padding: 10px 12px;
+      color: white;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: 'Inter';
+      font-weight: 500;
+      background-color: #0E0530;
+      border: 2px solid #29428A;
+      border-radius: 8px;
+      box-sizing: border-box;
+
+      &.active {
+        padding: 10px 12px;
+        color: white;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Inter';
+        font-weight: 500;
+        background-color: #447EE4;
+        border: 2px solid #447EE4;
+        border-radius: 8px;
+      }
+    }
+  }
+}

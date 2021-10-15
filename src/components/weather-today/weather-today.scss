@@ -1,0 +1,23 @@
+.weatherCard {
+  &__content-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    width: 100%;
+    height: 44px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter';
+    font-weight: 400;
+    background-color: #261F48;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+  }
+
+  &__content-daily {
+    display: flex;
+    flex-direction: column;
+  }
+}
