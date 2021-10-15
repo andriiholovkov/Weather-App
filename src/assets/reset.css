@@ -87,8 +87,6 @@ video {
   vertical-align: baseline;
 }
 
-
-
 /* HTML5 display-role reset for older browsers */
 
 /* article,
@@ -141,7 +139,7 @@ input:focus-visible {
   outline: 0px;
 }
 
-// A little extra
+/* A little extra */
 * {
   box-sizing: border-box;
   color: inherit;
